@@ -1,0 +1,36 @@
+Arguments: 
+  /home/eduardo/.nvm/versions/node/v18.12.1/bin/node /usr/share/yarn/bin/yarn.js create /?
+
+PATH: 
+  /home/eduardo/.nvm/versions/node/v18.12.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/PowerShell/7-preview/preview:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Eduardo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Eduardo/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/usr/lib/jvm/zulu11/bin/java
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Name should not start with "/", got "/?"
+      at parsePackageName (/usr/share/yarn/lib/cli.js:83668:11)
+      at coerceCreatePackageName (/usr/share/yarn/lib/cli.js:83688:20)
+      at Object.<anonymous> (/usr/share/yarn/lib/cli.js:83594:33)
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/share/yarn/lib/cli.js:5305:28)
+      at Object.<anonymous> (/usr/share/yarn/lib/cli.js:307:12)
+      at Object.run (/usr/share/yarn/lib/cli.js:83613:17)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
