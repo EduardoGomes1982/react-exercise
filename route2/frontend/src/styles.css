@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --ex-color-bg-color-primary: #DADADA;
+    --ex-color-bg-color-secondary: #FF2323;
+    --ex-color-bg-color-tertiary: #FFFFFF;
+
+    --ex-color-text-color-primary: #FFFFFF;
+    --ex-color-text-color-secondary: #6F6F6F;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Inter, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
