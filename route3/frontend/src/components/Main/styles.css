@@ -1,0 +1,10 @@
+main {
+    background-color: var(--ex-color-bg-color-primary);
+    padding: 30px;
+}
+
+#content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
